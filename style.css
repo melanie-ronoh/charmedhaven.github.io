@@ -899,7 +899,7 @@ input:focus {
   margin-top: 130px;
 }
 
-p {
+.thankyou p {
   font-size: 1.8rem;
   text-align: center;
   align-items: center;
