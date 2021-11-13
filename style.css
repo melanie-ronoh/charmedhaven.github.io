@@ -889,7 +889,7 @@ input:focus {
 
 /* thank you */
 
-.thankyou {
+.thankyou, .thankyou p {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -897,11 +897,4 @@ input:focus {
   text-align: center;
   padding: 20px;
   margin-top: 130px;
-}
-
-.thankyou p {
-  font-size: 1.8rem;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
 }
