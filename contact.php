@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Charmed Haven</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="script.js">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="icon" type="image/x-icon" href="Images/favicon.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Karla&amp;family=Lato:wght@700&amp;family=Merriweather:ital,wght@1,300&amp;family=Ubuntu&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.html">
+  <link rel="stylesheet" href="contactform.php">
+  
+</head>
+<body>
+  <div class="info-bar">
+    <div class="wrapper text-center">
+      <div class="header-message">
+        <p>Free shipping available on all orders!</p>
+      </div>
+    </div>
+  </div>
+
+<!-- navigation  -->
+
+
+  <div class="navbar" id="myNavbar">
+    <label class="logo">
+        <li><a class="active" href="index.html">Charmed Haven</a></li>
+    </label>
+        <a href="products.html">Products</a>
+        <a href="contact.html">Contact</a>
+    <a href="javascript:void(0);" style="font-size:30px;" class="icon" onclick="myFunction()">&#9776;</a>
+    <img class="cart" src="cart.svg" width="20px" height="20px">
+
+  </div>
+  
+  <hr>
+
+  <!-- Contact Us -->
+<section class="contact" id="contact">
+    <div class="contactContainer wrapper">
+      <div class="contactInfo">
+        <h2>Contact Us </h2>
+        <p>Need assistance? Fill in the form and we will get back with you in 24hrs. </p>
+      </div>
+      <div class="form">
+        <form name="contact" method="POST" action="contactform.php">
+          <input type="hidden" name="form-name" value="contact">
+          <label class="visuallyHidden" for="email">Name</label>
+          <input type="text" name="name" id="name" placeholder="full name" autocomplete="off" required>
+          <label class="visuallyHidden" for="mail">Email</label>
+          <input type="email" name="mail" id="mail" placeholder="email" required="">
+          <label class="visuallyHidden" for="message" autocomplete="off">message</label>
+          <textarea name="message" id="message" placeholder="message" required=""></textarea>
+      <div class="submit">
+        <button class="send" type="submit">Submit</button>
+      </div>
+      </form>
+    </div>
+    </div>
+  </section>
+  <!-- footer -->
+  <hr>
+  <footer>
+    <div class="footer">
+      
+      <div class="footer-one">
+        <div class="footer-head mission">
+          <h3>Mission</h3>
+          <p>Our mission is to provide sustainable and comfortable clothing for the everyday woman.</p><br>
+          <br>
+        </div>
+        <div class="footer-head help">
+           
+          <ul>
+            <h3>
+                <li>Help</li>
+              </h3>
+            <li>FAQ</li>
+            <li>Shipping</li>
+            <li>Contact</li>
+            <li>Returns & Exchanges</li><br>
+          </ul>
+        </div>
+        <div class="newsletter">
+          <h3>Subscribe to our emails</h3><input type="email" placeholder="Email" id="newsletter"> <input type="submit" value="Sign Up" id="newsletter-btn">
+        </div>
+    <hr>
+      </div><!-- footer two -->
+      <div class="footer-two">
+        <ul>
+          <li class="footer-item"><span>© Charmed Haven 2021</span></li>
+        </ul>
+        <div class="social-links">
+            <div class="social-links">
+                <ul>
+                    <li class="facebook">
+                    <button class="border"><i class="fa fa-facebook"></i></button>
+                    </li>
+                    <li class="twitter">
+                    <button class="border"><i class="fa fa-twitter"></i></button>
+                    </li>
+                    <li class="instagram">
+                    <button class="border"><i class="fa fa-instagram"></i></button>
+                    </li>
+                    <li class="pinterest">
+                    <button class="border"><i class="fa fa-pinterest"></i></button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myNavbar");
+      if (x.className === "navbar") {
+        x.className += " responsive";
+      } else {
+        x.className = "navbar";
+      }
+    }
+    </script>
+</body>
+</html>
+
+
+
+
+
+
