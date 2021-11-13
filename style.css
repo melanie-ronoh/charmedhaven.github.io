@@ -901,4 +901,7 @@ input:focus {
 
 p {
   font-size: 1.8rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
