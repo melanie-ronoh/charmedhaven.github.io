@@ -889,7 +889,7 @@ input:focus {
 
 /* thank you */
 
-.thankyou, .thankyou p {
+.thankyou {
   display: flex;
   flex-direction: column;
   justify-content: center;
